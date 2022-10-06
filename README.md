@@ -1,4 +1,4 @@
-# GitHack
+# GitHack - Get started with your very first pull and push request with Hacktoberfest
 
 ### Requirements:
 1. Git should be installed into your computer.
@@ -58,7 +58,7 @@ Copy paste this code above the below code in index.html
 
 ![Screenshot (33)](https://user-images.githubusercontent.com/63035436/194279411-ca3e869a-3a40-479a-b642-024a59a28c6e.png)
 
-<b>Step 7:</b> Now make changes like
+<b>Step 7:</b> Now make changes like <br>
 ~ Replace \<!-- Your Name --> with your name <br>
 ~ Replace \<!-- Your Branch --> with your branch <br>
 ~ Replace \<!-- Your College --> with your college name <br>
@@ -76,7 +76,7 @@ Now your code must look like this:
 <b>Step 9:</b> Now enter below code into your terminal:
 ```
 git add .
-git commit -m "I have my details as <Your Name>"
+git commit -m "I have added my details as <Your Name>"
 ```
 Here as well reaplce \<Your Name> with your name 
 
@@ -113,5 +113,10 @@ Now we will merge your pull request and as your pull request get merged you will
 
 Happy Coding!!
 Happy Hacktoberfest!!
+
+## Resources
+#### [GitHub Skills](https://skills.github.com/)
+#### [Pro Git - A Ebook](https://git-scm.com/book/en/v2)
+#### [Git Reference About § Site Source](http://git.github.io/git-reference/)
 
 
