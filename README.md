@@ -13,7 +13,7 @@
   
   ![Screenshot (29)](https://user-images.githubusercontent.com/63035436/194270313-66c01eb8-80f8-46ba-9c8e-8bef0fc5441d.png)
 
-<b>Step 3:</b> Open cmd in a folder of choice like below:
+<b>Step 3:</b> Open cmd in Windows or Terminal in Linux in a folder of your choice like below:
   
   ![Screenshot (30)](https://user-images.githubusercontent.com/63035436/194271416-01c487b5-eccd-4d83-9966-68bbaf7918e7.png)
 
@@ -53,7 +53,7 @@ Now you might be seeing VS Code opened like this
 
 Copy paste this code above the below code in index.html
 ```
-\<!-- Copy paste below code above this line-->
+<!-- Copy paste below code above this line-->
 ```
 
 ![Screenshot (33)](https://user-images.githubusercontent.com/63035436/194279411-ca3e869a-3a40-479a-b642-024a59a28c6e.png)
