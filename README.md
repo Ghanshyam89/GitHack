@@ -1,4 +1,4 @@
-# GitHack - Get started with your very first pull and push request with Hacktoberfest
+# GitHack - Get started with your very first pull and push request this Hacktoberfest
 
 ### Requirements:
 1. Git should be installed into your computer.
