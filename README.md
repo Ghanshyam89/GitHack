@@ -119,4 +119,9 @@ Happy Hacktoberfest!!
 #### [Pro Git - A Ebook](https://git-scm.com/book/en/v2)
 #### [Git Reference About § Site Source](http://git.github.io/git-reference/)
 
+## Connect with us!!
+LinkedIn: https://www.linkedin.com/company/mlsa-x-sistec
+Discord: https://discord.gg/4MsjNAruD5
+
+
 
