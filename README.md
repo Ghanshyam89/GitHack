@@ -120,8 +120,6 @@ Happy Hacktoberfest!!
 #### [Git Reference About § Site Source](http://git.github.io/git-reference/)
 
 ## Connect with us!!
-LinkedIn: https://www.linkedin.com/company/mlsa-x-sistec
-Discord: https://discord.gg/4MsjNAruD5
-Instagram: https://instagram.com/mlsaxsistec?igshid=YmMyMTA2M2Y=
-
-
+<b>LinkedIn:</b> https://www.linkedin.com/company/mlsa-x-sistec <br>
+<b>Discord:</b> https://discord.gg/4MsjNAruD5 <br>
+<b>Instagram:</b> https://instagram.com/mlsaxsistec?igshid=YmMyMTA2M2Y= <br>
