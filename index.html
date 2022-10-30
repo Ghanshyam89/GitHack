@@ -1,586 +1,650 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="img/mlsa-logo.png">
-    <title>Hacktoberfest MLSA x SISTec: Get Started with Opensource</title>
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    <meta name="theme-color" content="#11105c">
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
-    <!-- MDB -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css" rel="stylesheet"/>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="img/mlsa-logo.png">
+  <title>Hacktoberfest MLSA x SISTec: Get Started with Opensource</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <meta name="theme-color" content="#11105c">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css" rel="stylesheet" />
 
 </head>
+
 <body>
-    <div class="container" id="home">
-        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-            <a href="/GitHack" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-                <img src="img/hacktoberfest-logo.png" alt="" srcset="" height="40px"> <h2 class="mt-2">/</h2>
-                <img src="img/mlsa-logo.png" alt="" srcset="" height="40px">
-                <h5 class="m-2">Hacktoberfest <br> MLSA x SISTec</h5>
-            </a>
-      
-            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-              <li><a href="#home" class="nav-link px-2 link-secondary">Home</a></li>
-              <li><a href="#contributors" class="nav-link px-2 link-dark">Contributors</a></li>
-              <li><a href="#about" class="nav-link px-2 link-dark">About</a></li>
-            </ul>
-      
-            <div class="col-md-3 text-end">
-                <!-- <a href="#" class="me-3"><i class="fab fa-github fa-2x text-dark"></i></a> -->
-                <a href="https://www.linkedin.com/company/mlsa-x-sistec" class="me-3" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin fa-2x text-dark"></i></a>
-                <a href="https://discord.gg/4MsjNAruD5" class="me-3" target="_blank" rel="noopener noreferrer"><i class="fab fa-discord fa-2x text-dark"></i></a>
-                <a href="https://instagram.com/mlsaxsistec?igshid=YmMyMTA2M2Y=" class="me-3" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram fa-2x text-dark"></i></a>
-            </div>
-          </header>
+  <div class="container" id="home">
+    <header
+      class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+      <a href="/GitHack" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+        <img src="img/hacktoberfest-logo.png" alt="" srcset="" height="40px">
+        <h2 class="mt-2">/</h2>
+        <img src="img/mlsa-logo.png" alt="" srcset="" height="40px">
+        <h5 class="m-2">Hacktoberfest <br> MLSA x SISTec</h5>
+      </a>
 
-          <div class="justify-content-center">
-            <p class="text-center">This webpage is open for contributions under <strong>Hacktoberfest</strong> you can contribute <a href="https://github.com/Ghanshyam89/GitHack" target="_blank" rel="noopener noreferrer"> here</a> !!</p>
-            <p class="text-center"><a class="btn btn-primary" href="https://github.com/Ghanshyam89/GitHack" target="_blank" rel="noopener noreferrer">Contribute Here</a></p>
-          </div>
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <li><a href="#home" class="nav-link px-2 link-secondary">Home</a></li>
+        <li><a href="#contributors" class="nav-link px-2 link-dark">Contributors</a></li>
+        <li><a href="#about" class="nav-link px-2 link-dark">About</a></li>
+      </ul>
 
-        <div class="container-fluid pb-3">
-          <h2 id="contributors" class="text-center m-3 mt-4 text-secondary">Contributors</h2>
-            <div class="d-grid gap-3" style="display: grid; grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );">
-                <div class="bg-light border rounded-3">
-                    <div class="m-4">
-                        <h3>Aiman Asif</h3>
-                        <ul style="margin-left: -15px;">
-                            <li>Branch: CSE</li>
-                            <li>College: SISTec GN</li>
-                            <li>Github Username: aimanasif27</li>
-                            <li>Tech Stack: Python, C Programming, Django, SQL, OOPs, DSA, etc.</li>
-                        </ul>
-                    </div>
-                </div>
+      <div class="col-md-3 text-end">
+        <!-- <a href="#" class="me-3"><i class="fab fa-github fa-2x text-dark"></i></a> -->
+        <a href="https://www.linkedin.com/company/mlsa-x-sistec" class="me-3" target="_blank"
+          rel="noopener noreferrer"><i class="fab fa-linkedin fa-2x text-dark"></i></a>
+        <a href="https://discord.gg/4MsjNAruD5" class="me-3" target="_blank" rel="noopener noreferrer"><i
+            class="fab fa-discord fa-2x text-dark"></i></a>
+        <a href="https://instagram.com/mlsaxsistec?igshid=YmMyMTA2M2Y=" class="me-3" target="_blank"
+          rel="noopener noreferrer"><i class="fab fa-instagram fa-2x text-dark"></i></a>
+      </div>
+    </header>
 
-                <div class="bg-light border rounded-3">
-                    <div class="m-4">
-                        <h3>Ghanshyam Prajapati</h3>
-                        <ul style="margin-left: -15px;">
-                            <li>Branch: CSE</li>
-                            <li>College: SISTec GN</li>
-                            <li>Github Username: Ghanshyam89</li>
-                            <li>Tech Stack: Python, Java, Django, etc.</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                
-                
-                  <div class="bg-light border rounded-3">
-                  <div class="m-4">
-                      <h3>Vikas Tripathi</h3>
-                      <ul style="margin-left: -15px;">
-                          <li>Branch: ECE</li>
-                          <li>College: BNCET</li>
-                          <li>Github Username:ervikasji </li>
-                          <li>Tech Stack: basic C,C++ Programming,HTML, CSS, Working on JavaScript and Java.</li>
-                      </ul>
-                  </div>
-              </div>
-
-                
-                <div class="bg-light border rounded-3">
-                    <div class="m-4">
-                        <h3>Raj Singh</h3>
-                        <ul style="margin-left: -15px;">
-                            <li>Branch: EC</li>
-                            <li>College: SISTec RB</li>
-                            <li>Github Username: RajRB</li>
-                            <li>Tech Stack: Python, IOT, Networking, etc.</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="bg-light border rounded-3">
-                    <div class="m-4">
-                        <h3>Ashish Shukla</h3>
-                        <ul style="margin-left: -15px;">
-                            <li>Branch: CSE</li>
-                            <li>College: VSICS</li>
-                            <li>Github Username: ashishshukla09</li>
-                            <li>Tech Stack: Python, Web dev, etc.</li>
-                        </ul>
-                    </div>
-                </div>
-
-
-                <div class="bg-light border rounded-3">
-                  <div class="m-4">
-                      <h3>Kush Pandey</h3>
-                      <ul style="margin-left: -15px;">
-                          <li>Branch: Computer Science</li>
-                          <li>College: SISTec-GN</li>
-                          <li>Github Username: kushpandey3009</li>
-                          <li>Tech Stack: java,Web dev,python,ML</li>
-                      </ul>
-                  </div>
-              </div>
-        
-                
-                <div class="bg-light border rounded-3">
-                  <div class="m-4">
-                      <h3>Felix Montanari</h3>
-                      <ul style="margin-left: -15px;">
-                          <li>Branch: CSE</li>
-                          <li>College: UNSW</li>
-                          <li>Github Username: captainboggle</li>
-                          <li>Tech Stack: python, julia, web</li>
-                      </ul>
-                  </div>
-              </div>
-
-                <div class="bg-light border rounded-3">
-                  <div class="m-4">
-                      <h3>Shaikh Farhan</h3>
-                      <ul style="margin-left: -15px;">
-                          <li>Branch: MCA</li>
-                          <li>College: Allana Institute Of Management and science</li>
-                          <li>Github Username: farhanpro </li>
-                          <li>Tech Stack: MERN </li>
-                      </ul>
-                  </div>
-              </div>
-
-              <div class="bg-light border rounded-3">
-                <div class="m-4">
-                  <h3>Niranjan Kurhade</h3>
-                    <ul style="margin-left: -15px;">
-                      <li>Branch: Computer</li>
-                      <li>College: FCRIT</li>
-                      <li>Github Username: niranjan-kurhade</li>
-                      <li>Tech Stack: Java, WebDev, Bootstrap</li>
-                     </ul>
-                </div>
-              </div>
-                
-                <div class="bg-light border rounded-3">
-                  <div class="m-4">
-                    <h3>Divyanshu Das</h3>
-                      <ul style="margin-left: -15px;">
-                        <li>Branch: CSE</li>
-                        <li>College: Sagar Institute of Science and Technology</li>
-                        <li>Github Username: divi1501</li>
-                        <li>Tech Stack: Web development, Python, Machine Learning, adobe softwares for designing, etc</li>
-                       </ul>
-                  </div>
-                </div>
-                
-                <div class="bg-light border rounded-3">
-                  <div class="m-4">
-                      <h3>Mr. Harsh kushwah</h3>
-                      <ul style="margin-left: -15px;">
-                          <li>Branch: CSE</li>
-                          <li>College: SISTec-GN</li>
-                          <li>Github Username: harshkushwahanimelover</li>
-                          <li>Tech Stack: Web-dev, C, Cpp</li>
-                      </ul>
-                  </div>
-              </div>
-
-              <div class="bg-light border rounded-3">
-                <div class="m-4">
-                    <h3>Mr. Ayush Mishra</h3>
-                    <ul style="margin-left: -15px;">
-                        <li>Branch: CSE</li>
-                        <li>College: SISTec-GN</li>
-                        <li>Github Username: Ayushmishra69</li>
-                        <li>Tech Stack: Web-dev, C, Cpp, Python,django,mysql</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="bg-light border rounded-3">
-              <div class="m-4">
-                  <h3>Mr. Mustali hussain cyclewala</h3>
-                  <ul style="margin-left: -15px;">
-                      <li>Branch: CSE</li>
-                      <li>College: SISTec-GN</li>
-                      <li>Github Username: Mooseli99</li>
-                      <li>Tech Stack: Web-dev, Comm skills, logical ability</li>
-                  </ul>
-              </div>
-          </div>
-
-
-          <div class="bg-light border rounded-3">
-            <div class="m-4">
-                <h3>Mr. Priyansh russia</h3>
-                <ul style="margin-left: -15px;">
-                    <li>Branch: CSE</li>
-                    <li>College: SISTec-GN</li>
-                    <li>Github Username: ladimir44</li>
-                    <li>Tech Stack: Web-dev, php, java, c,sql</li>
-                </ul>
-            </div>
-        </div>
-
-                <div class="bg-light border rounded-3">
-                  <div class="m-4">
-                    <h3>Rishi Shukla</h3>
-                      <ul style="margin-left: -15px;">
-                        <li>Branch: MCA</li>
-                        <li>College: VSICS</li>
-                        <li>Github Username: rishishukla09</li>
-                        <li>Tech Stack: Web development, Python, etc</li>
-                       </ul>
-                  </div>
-                </div>
-                
-                <div class="bg-light border rounded-3">
-                  <div class="m-4">
-                      <h3>Ramlakhan Lodhi</h3>
-                      <ul style="margin-left: -15px;">
-                          <li>Branch: CSE</li>
-                          <li>College: Sagar Institute of Science and Technology GN </li>
-                          <li>Github Username:ramlakhan79</li>
-                          <li>Tech Stack: C Programming , C++ </li>
-                      </ul>
-                  </div>
-              </div>
-                
-              <div class="bg-light border rounded-3">
-                  <div class="m-4">
-                      <h3>Uma Shankar Mishra</h3>
-                      <ul style="margin-left: -15px;">
-                          <li>Branch: CSE</li>
-                          <li>College: SISTec RB</li>
-                          <li>Github Username: umashankarm655 </li>
-                          <li>Tech Stack: basic C Programming,basic C++ Programming,HTML, CSS, Working on JavaScript and Java.</li>
-                      </ul>
-                  </div>
-              </div>
-              
-                
-              <div class="bg-light border rounded-3">
-                  <div class="m-4">
-                      <h3>Swapnil Lodhi</h3>
-                      <ul style="margin-left: -15px;">
-                          <li>Branch: CSE</li>
-                          <li>College: SISTec RB</li>
-                          <li>Github Username:swapnillodhi04 </li>
-                          <li>Tech Stack: basic C,C++ Programming,HTML, CSS, Working on JavaScript and Java.</li>
-                      </ul>
-                  </div>
-              </div>
-              
-              
-              <div class="bg-light border rounded-3">
-                <div class="m-4">
-                    <h3>Bhumi Gupta</h3>
-                    <ul style="margin-left: -15px;">
-                        <li>Branch: CSE</li>
-                        <li>College: SISTec-GN</li>
-                        <li>Github Username: Gbhumi02</li>
-                        <li>Tech Stack: C++,JAVA,Web development,MYSQL</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="bg-light border rounded-3">
-              <div class="m-4">
-                <h3>Mr. Dikshant Bhatiya</h3>
-                  <ul style="margin-left: -15px;">
-                    <li>Branch: CSE</li>
-                    <li>College: SISTec-RB</li>
-                    <li>Github Username: danger-5344</li>
-                    <li>Tech Stack: C, Cpp</li>
-                   </ul>
-              </div>
-            </div>
-                  
-              <div class="bg-light border rounded-3">
-                  <div class="m-4">
-                      <h3>Ayush Agrawal </h3>
-                      <ul style="margin-left: -15px;">
-                          <li>Branch: CSE</li>
-                          <li>College: SISTec RB</li>
-                          <li>Github Username: AyushAgrawal123 </li>
-                          <li>Tech Stack: basic C Programming,basic C++ Programming,HTML, CSS, Working on JavaScript and Java.</li>
-                      </ul>
-                  </div>
-              </div>
-
-              <div class="bg-light border rounded-3">
-                <div class="m-4">
-                    <h3>Laveena Pahuja</h3>
-                    <ul style="margin-left: -15px;">
-                        <li>Branch: CSE</li>
-                        <li>College: SISTec GN</li>
-                        <li>Github Username: Pahujalaveena</li>
-                        <li>Tech Stack: C,C++,HTML,CSS</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="bg-light border rounded-3">
-              <div class="m-4">
-                <h3>Kartikey Sahu</h3>
-                  <ul style="margin-left: -15px;">
-                    <li>Branch: CSE</li>
-                    <li>College: SISTec GN</li>
-                    <li>Github Username: kartik9977</li>
-                    <li>Tech Stack: C++,C,JAVA,HTML,CSS</li>
-                   </ul>
-              </div>
-            </div>
-
-            <div class="bg-light border rounded-3">
-              <div class="m-4">
-                <h3>Anuj Soni</h3>
-                  <ul style="margin-left: -15px;">
-                    <li>Branch: CSE</li>
-                    <li>College: SISTec GN</li>
-                    <li>Github Username: martian2001</li>
-                    <li>Tech Stack: HTML,CSS,JavaScript,C,C++</li>
-                   </ul>
-              </div>
-            </div>
-          
-              
-              <div class="bg-light border rounded-3">
-                <div class="m-4">
-                    <h3>Aastha jain</h3>
-                    <ul style="margin-left: -15px;">
-                        <li>Branch:CSE <!-- Your Branch --></li>
-                        <li>College:SISTec-GN <!-- Your College --></li>
-                        <li>Github Username:aasthajain18 <!-- Your Github Username --></li>
-                        <li>Tech Stack:java,firebase <!-- Your Technical Skills --></li>
-                    </ul>
-                </div>
-            </div>
-
-               <div class="bg-light border rounded-3">
-                  <div class="m-4">
-                      <h3>Sahil Ghonge</h3>
-                      <ul style="margin-left: -15px;">
-                          <li>Branch: CSE</li>
-                          <li>College: SISTec RB</li>
-                          <li>Github Username: SahilGhonge </li>
-                          <li>Tech Stack: basic C Programming,basic C++ Programming,HTML, CSS, Working on JavaScript and Java.</li>
-                      </ul>
-                  </div>
-              </div>
-
-            <div class="bg-light border rounded-3">
-              <div class="m-4">
-                  <h3>Akash Singh</h3>
-                  <ul style="margin-left: -15px;">
-                      <li>Branch: CSE</li>
-                      <li>College: VIT Mumbai</li>
-                      <li>Github Username: Akash7649</li>
-                      <li>Tech Stack: C, C++, Java, Python,Competitive Coding, MERN Stack, Bootstrap </li>
-                  </ul>
-              </div>
-            </div>
-              
-              <div class="bg-light border rounded-3">
-                <div class="m-4">
-                    <h3>Savio Dias</h3>
-                    <ul style="margin-left: -15px;">
-                        <li>Branch: CSE</li>
-                        <li>College: FCRIT</li>
-                        <li>Github Username: Savio629 </li>
-                        <li>Tech Stack: C++, Java, HTML, CSS, JavaScript, Figma, Python, React.</li>
-                    </ul>
-                </div>
-            </div>              
-
-            <div class="bg-light border rounded-3">
-                    <div class="m-4">
-                        <h3>Hardik Kushwaha</h3>
-                        <ul style="margin-left: -15px;">
-                            <li>Branch: Computer Science and Engineering</li>
-                            <li>College: Sagar Institute of Science & Technology</li>
-                            <li>Github Username: Hardik Kushwaha</li>
-                            <li>Tech Stack: Python, Cloud Computing, Linux</li>
-                        </ul>
-                    </div>
-             </div>
-
-             <div class="bg-light border rounded-3">
-                    <div class="m-4">
-                        <h3>Arjun Thakur</h3>
-                        <ul style="margin-left: -15px;">
-                            <li>Branch: Computer Science and Engineering</li>
-                            <li>College: Technocrats Institute of Technology(TIT)</li>
-                            <li>Github Username: Arjun-Thakur18</li>
-                            <li>Tech Stack: Python and Java</li>
-                        </ul>
-                    </div>
-              </div>
-              
-              <div class="bg-light border rounded-3">
-                <div class="m-4">
-                    <h3>Anupriya Kushwaha</h3>
-                    <ul style="margin-left: -15px;">
-                        <li>Branch:CSE <!-- Your Branch --></li>
-                        <li>College:SISTec-GN <!-- Your College --></li>
-                        <li>Github Username:Anupriya-04 <!-- Your Github Username --></li>
-                        <li>Tech Stack:java,firebase <!-- Your Technical Skills --></li>
-                    </ul>
-                </div>
-            </div>
-
-                  <h3>Bijay Dulal</h3>
-                    <ul style="margin-left: -15px;">
-                      <li>Branch: CSE</li>
-                      <li>College: SISTec-GN</li>
-                      <li>Github Username: iambijayd</li>
-                      <li>Tech Stack: C++,C,JAVA,HTML,CSS,SQL</li>
-                     </ul>
-                </div>
-              </div>
-                
-              <div class="bg-light border rounded-3">
-                    <div class="m-4">
-                        <h3>Yash Khushwah</h3>
-                        <ul style="margin-left: -15px;">
-                            <li>Branch: CSE</li>
-                            <li>College: SISTec RB</li>
-                            <li>Github Username: lukeskywlaker</li>
-                            <li>Tech Stack: C++,C,JAVA,HTML,CSS,Cloud Computing, Linux</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="bg-light border rounded-3">
-
-                    <div class="m-4">
-
-                        <h3>Vinyas Hegde</h3>
-
-                        <ul style="margin-left: -15px;">
-
-                            <li>Branch: CE</li>
-
-                            <li>College: Pillai Hoc</li>
-
-                            <li>Github Username: vinyashegde</li>
-
-                            <li>Tech Stack: C++,C,HTML,CSS, JavaScript</li>
-
-                        </ul>
-
-                    </div>
-
-                </div>
-
-                <div class="bg-light border rounded-3">
-                  <div class="m-4">
-                      <h3>Ankit Shilarkar<!-- Your name --></h3>
-                      <ul style="margin-left: -15px;">
-                          <li>Branch: CSE<!-- Your Branch --></li>
-                          <li>College: SISTec-GN<!-- Your College --></li>
-                          <li>Github Username: ankit-shilarkar<!-- Your Github Username --></li>
-                          <li>Tech Stack: DSA,C,C++,ML<!--Your Technical Skills --></li>
-                      </ul>
-                  </div>
-              </div>
-
-              <div class="bg-light border rounded-3">
-                <div class="m-4">
-                    <h3>Harshit Dongre<!-- Your name --></h3>
-                    <ul style="margin-left: -15px;">
-                        <li>Branch: CSE<!-- Your Branch --></li>
-                        <li>College: SISTEC-GN<!-- Your College --></li>
-                        <li>Github Username: Harshit1020<!-- Your Github Username --></li>
-                        <li>Tech Stack:JavaScript,Node.js,C,Java,Python<!--Your Technical Skills --></li>
-                    </ul>
-                </div>
-            </div>
-
-              <!-- Paste the Code here -->
-              
-              <!-- Copy paste below code above this line-->
-              
-              
-              <!-- Copy paste below code above this and update your respective details-->
-              <div class="bg-light border rounded-3">
-                <div class="m-4">
-                  <h3><!-- Your Name --></h3>
-                    <ul style="margin-left: -15px;">
-                      <li>Branch: <!-- Your Branch --></li>
-                      <li>College: <!-- Your College --></li>
-                      <li>Github Username: <!-- Your Github Username --></li>
-                      <li>Tech Stack: <!-- Your Technical Skills --></li>
-                     </ul>
-                </div>
-              </div>
-                <!-- Copy above code till here -->
-
-            </div>
-          </div>
+    <div class="justify-content-center">
+      <p class="text-center">This webpage is open for contributions under <strong>Hacktoberfest</strong> you can
+        contribute <a href="https://github.com/Ghanshyam89/GitHack" target="_blank" rel="noopener noreferrer"> here</a>
+        !!</p>
+      <p class="text-center"><a class="btn btn-primary" href="https://github.com/Ghanshyam89/GitHack" target="_blank"
+          rel="noopener noreferrer">Contribute Here</a></p>
     </div>
 
-    <footer class="text-center text-white mt-5" id="about" style="background-color: #f1f1f1;">
-        <!-- Grid container -->
-        <div class="container pt-4">
-
-            <div class="text-dark">
-                <img src="img/mlsa-logo.png" height="200px" alt=""><br><br>
-                <h1>MLSA x SISTec</h1>
-                <p><strong>Microsoft Learn Student Ambassador Community - SISTec</strong> is a technical community formed under <strong>Microsoft Learn Student Ambassadors Program </strong>that aims to get as many student developers together as possible in order to create a robust environment that fosters collaborative learning. We hold engaging workshops and events to ensure the students' learning and advancement.</p>
-            </div>
-
-
-          <!-- Section: Social media -->
-          <section class="mb-4">      
-            <!-- Linkedin -->
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="https://www.linkedin.com/company/mlsa-x-sistec"
-              role="button"
-              data-mdb-ripple-color="dark" target="_blank" rel="noopener noreferrer"
-              ><i class="fab fa-linkedin"></i>
-            </a>
-            <!-- Discord -->
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="https://discord.gg/4MsjNAruD5"
-              role="button"
-              data-mdb-ripple-color="dark" target="_blank" rel="noopener noreferrer"
-              ><i class="fab fa-discord"></i>
-            </a>
-
-            <!-- Instagram -->
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="https://instagram.com/mlsaxsistec?igshid=YmMyMTA2M2Y="
-              role="button"
-              data-mdb-ripple-color="dark" target="_blank" rel="noopener noreferrer"
-              ><i class="fab fa-instagram"></i>
-            </a>
-
-            <!-- Know more about us! -->
-            <a
-              class="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="https://linktr.ee/mlsaxsistec"
-              role="button"
-              data-mdb-ripple-color="dark" target="_blank" rel="noopener noreferrer"
-              ><i class="fab fa-angle-double-up"></i>
-            </a>
-          </section>
-          <!-- Section: Social media -->
+    <div class="container-fluid pb-3">
+      <h2 id="contributors" class="text-center m-3 mt-4 text-secondary">Contributors</h2>
+      <div class="d-grid gap-3" style="display: grid; grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );">
+        <div class="bg-light border rounded-3">
+          <div class="m-4">
+            <h3>Aiman Asif</h3>
+            <ul style="margin-left: -15px;">
+              <li>Branch: CSE</li>
+              <li>College: SISTec GN</li>
+              <li>Github Username: aimanasif27</li>
+              <li>Tech Stack: Python, C Programming, Django, SQL, OOPs, DSA, etc.</li>
+            </ul>
+          </div>
         </div>
-        <!-- Grid container -->
-      
-        <!-- Copyright -->
-        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2022 Copyright:
-          <a class="text-dark" href="https://about.me/ghanshyamprajapati">Ghanshyam Prajapati</a>
+
+        <div class="bg-light border rounded-3">
+          <div class="m-4">
+            <h3>Ghanshyam Prajapati</h3>
+            <ul style="margin-left: -15px;">
+              <li>Branch: CSE</li>
+              <li>College: SISTec GN</li>
+              <li>Github Username: Ghanshyam89</li>
+              <li>Tech Stack: Python, Java, Django, etc.</li>
+            </ul>
+          </div>
         </div>
-        <!-- Copyright -->
-      </footer>
+
+
+
+        <div class="bg-light border rounded-3">
+          <div class="m-4">
+            <h3>Vikas Tripathi</h3>
+            <ul style="margin-left: -15px;">
+              <li>Branch: ECE</li>
+              <li>College: BNCET</li>
+              <li>Github Username:ervikasji </li>
+              <li>Tech Stack: basic C,C++ Programming,HTML, CSS, Working on JavaScript and Java.</li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="bg-light border rounded-3">
+          <div class="m-4">
+            <h3>Raj Singh</h3>
+            <ul style="margin-left: -15px;">
+              <li>Branch: EC</li>
+              <li>College: SISTec RB</li>
+              <li>Github Username: RajRB</li>
+              <li>Tech Stack: Python, IOT, Networking, etc.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bg-light border rounded-3">
+          <div class="m-4">
+            <h3>Ashish Shukla</h3>
+            <ul style="margin-left: -15px;">
+              <li>Branch: CSE</li>
+              <li>College: VSICS</li>
+              <li>Github Username: ashishshukla09</li>
+              <li>Tech Stack: Python, Web dev, etc.</li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="bg-light border rounded-3">
+          <div class="m-4">
+            <h3>Kush Pandey</h3>
+            <ul style="margin-left: -15px;">
+              <li>Branch: Computer Science</li>
+              <li>College: SISTec-GN</li>
+              <li>Github Username: kushpandey3009</li>
+              <li>Tech Stack: java,Web dev,python,ML</li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="bg-light border rounded-3">
+          <div class="m-4">
+            <h3>Felix Montanari</h3>
+            <ul style="margin-left: -15px;">
+              <li>Branch: CSE</li>
+              <li>College: UNSW</li>
+              <li>Github Username: captainboggle</li>
+              <li>Tech Stack: python, julia, web</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bg-light border rounded-3">
+          <div class="m-4">
+            <h3>Shaikh Farhan</h3>
+            <ul style="margin-left: -15px;">
+              <li>Branch: MCA</li>
+              <li>College: Allana Institute Of Management and science</li>
+              <li>Github Username: farhanpro </li>
+              <li>Tech Stack: MERN </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bg-light border rounded-3">
+          <div class="m-4">
+            <h3>Niranjan Kurhade</h3>
+            <ul style="margin-left: -15px;">
+              <li>Branch: Computer</li>
+              <li>College: FCRIT</li>
+              <li>Github Username: niranjan-kurhade</li>
+              <li>Tech Stack: Java, WebDev, Bootstrap</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bg-light border rounded-3">
+          <div class="m-4">
+            <h3>Divyanshu Das</h3>
+            <ul style="margin-left: -15px;">
+              <li>Branch: CSE</li>
+              <li>College: Sagar Institute of Science and Technology</li>
+              <li>Github Username: divi1501</li>
+              <li>Tech Stack: Web development, Python, Machine Learning, adobe softwares for designing, etc</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bg-light border rounded-3">
+          <div class="m-4">
+            <h3>Mr. Harsh kushwah</h3>
+            <ul style="margin-left: -15px;">
+              <li>Branch: CSE</li>
+              <li>College: SISTec-GN</li>
+              <li>Github Username: harshkushwahanimelover</li>
+              <li>Tech Stack: Web-dev, C, Cpp</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bg-light border rounded-3">
+          <div class="m-4">
+            <h3>Mr. Ayush Mishra</h3>
+            <ul style="margin-left: -15px;">
+              <li>Branch: CSE</li>
+              <li>College: SISTec-GN</li>
+              <li>Github Username: Ayushmishra69</li>
+              <li>Tech Stack: Web-dev, C, Cpp, Python,django,mysql</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bg-light border rounded-3">
+          <div class="m-4">
+            <h3>Mr. Mustali hussain cyclewala</h3>
+            <ul style="margin-left: -15px;">
+              <li>Branch: CSE</li>
+              <li>College: SISTec-GN</li>
+              <li>Github Username: Mooseli99</li>
+              <li>Tech Stack: Web-dev, Comm skills, logical ability</li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="bg-light border rounded-3">
+          <div class="m-4">
+            <h3>Mr. Priyansh russia</h3>
+            <ul style="margin-left: -15px;">
+              <li>Branch: CSE</li>
+              <li>College: SISTec-GN</li>
+              <li>Github Username: ladimir44</li>
+              <li>Tech Stack: Web-dev, php, java, c,sql</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bg-light border rounded-3">
+          <div class="m-4">
+            <h3>Rishi Shukla</h3>
+            <ul style="margin-left: -15px;">
+              <li>Branch: MCA</li>
+              <li>College: VSICS</li>
+              <li>Github Username: rishishukla09</li>
+              <li>Tech Stack: Web development, Python, etc</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bg-light border rounded-3">
+          <div class="m-4">
+            <h3>Ramlakhan Lodhi</h3>
+            <ul style="margin-left: -15px;">
+              <li>Branch: CSE</li>
+              <li>College: Sagar Institute of Science and Technology GN </li>
+              <li>Github Username:ramlakhan79</li>
+              <li>Tech Stack: C Programming , C++ </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bg-light border rounded-3">
+          <div class="m-4">
+            <h3>Uma Shankar Mishra</h3>
+            <ul style="margin-left: -15px;">
+              <li>Branch: CSE</li>
+              <li>College: SISTec RB</li>
+              <li>Github Username: umashankarm655 </li>
+              <li>Tech Stack: basic C Programming,basic C++ Programming,HTML, CSS, Working on JavaScript and Java.</li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="bg-light border rounded-3">
+          <div class="m-4">
+            <h3>Swapnil Lodhi</h3>
+            <ul style="margin-left: -15px;">
+              <li>Branch: CSE</li>
+              <li>College: SISTec RB</li>
+              <li>Github Username:swapnillodhi04 </li>
+              <li>Tech Stack: basic C,C++ Programming,HTML, CSS, Working on JavaScript and Java.</li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="bg-light border rounded-3">
+          <div class="m-4">
+            <h3>Bhumi Gupta</h3>
+            <ul style="margin-left: -15px;">
+              <li>Branch: CSE</li>
+              <li>College: SISTec-GN</li>
+              <li>Github Username: Gbhumi02</li>
+              <li>Tech Stack: C++,JAVA,Web development,MYSQL</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bg-light border rounded-3">
+          <div class="m-4">
+            <h3>Mr. Dikshant Bhatiya</h3>
+            <ul style="margin-left: -15px;">
+              <li>Branch: CSE</li>
+              <li>College: SISTec-RB</li>
+              <li>Github Username: danger-5344</li>
+              <li>Tech Stack: C, Cpp</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bg-light border rounded-3">
+          <div class="m-4">
+            <h3>Ayush Agrawal </h3>
+            <ul style="margin-left: -15px;">
+              <li>Branch: CSE</li>
+              <li>College: SISTec RB</li>
+              <li>Github Username: AyushAgrawal123 </li>
+              <li>Tech Stack: basic C Programming,basic C++ Programming,HTML, CSS, Working on JavaScript and Java.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bg-light border rounded-3">
+          <div class="m-4">
+            <h3>Laveena Pahuja</h3>
+            <ul style="margin-left: -15px;">
+              <li>Branch: CSE</li>
+              <li>College: SISTec GN</li>
+              <li>Github Username: Pahujalaveena</li>
+              <li>Tech Stack: C,C++,HTML,CSS</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bg-light border rounded-3">
+          <div class="m-4">
+            <h3>Kartikey Sahu</h3>
+            <ul style="margin-left: -15px;">
+              <li>Branch: CSE</li>
+              <li>College: SISTec GN</li>
+              <li>Github Username: kartik9977</li>
+              <li>Tech Stack: C++,C,JAVA,HTML,CSS</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bg-light border rounded-3">
+          <div class="m-4">
+            <h3>Anuj Soni</h3>
+            <ul style="margin-left: -15px;">
+              <li>Branch: CSE</li>
+              <li>College: SISTec GN</li>
+              <li>Github Username: martian2001</li>
+              <li>Tech Stack: HTML,CSS,JavaScript,C,C++</li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="bg-light border rounded-3">
+          <div class="m-4">
+            <h3>Aastha jain</h3>
+            <ul style="margin-left: -15px;">
+              <li>Branch:CSE
+                <!-- Your Branch -->
+              </li>
+              <li>College:SISTec-GN
+                <!-- Your College -->
+              </li>
+              <li>Github Username:aasthajain18
+                <!-- Your Github Username -->
+              </li>
+              <li>Tech Stack:java,firebase
+                <!-- Your Technical Skills -->
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bg-light border rounded-3">
+          <div class="m-4">
+            <h3>Sahil Ghonge</h3>
+            <ul style="margin-left: -15px;">
+              <li>Branch: CSE</li>
+              <li>College: SISTec RB</li>
+              <li>Github Username: SahilGhonge </li>
+              <li>Tech Stack: basic C Programming,basic C++ Programming,HTML, CSS, Working on JavaScript and Java.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bg-light border rounded-3">
+          <div class="m-4">
+            <h3>Akash Singh</h3>
+            <ul style="margin-left: -15px;">
+              <li>Branch: CSE</li>
+              <li>College: VIT Mumbai</li>
+              <li>Github Username: Akash7649</li>
+              <li>Tech Stack: C, C++, Java, Python,Competitive Coding, MERN Stack, Bootstrap </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bg-light border rounded-3">
+          <div class="m-4">
+            <h3>Savio Dias</h3>
+            <ul style="margin-left: -15px;">
+              <li>Branch: CSE</li>
+              <li>College: FCRIT</li>
+              <li>Github Username: Savio629 </li>
+              <li>Tech Stack: C++, Java, HTML, CSS, JavaScript, Figma, Python, React.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bg-light border rounded-3">
+          <div class="m-4">
+            <h3>Hardik Kushwaha</h3>
+            <ul style="margin-left: -15px;">
+              <li>Branch: Computer Science and Engineering</li>
+              <li>College: Sagar Institute of Science & Technology</li>
+              <li>Github Username: Hardik Kushwaha</li>
+              <li>Tech Stack: Python, Cloud Computing, Linux</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bg-light border rounded-3">
+          <div class="m-4">
+            <h3>Arjun Thakur</h3>
+            <ul style="margin-left: -15px;">
+              <li>Branch: Computer Science and Engineering</li>
+              <li>College: Technocrats Institute of Technology(TIT)</li>
+              <li>Github Username: Arjun-Thakur18</li>
+              <li>Tech Stack: Python and Java</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bg-light border rounded-3">
+          <div class="m-4">
+            <h3>Anupriya Kushwaha</h3>
+            <ul style="margin-left: -15px;">
+              <li>Branch:CSE
+                <!-- Your Branch -->
+              </li>
+              <li>College:SISTec-GN
+                <!-- Your College -->
+              </li>
+              <li>Github Username:Anupriya-04
+                <!-- Your Github Username -->
+              </li>
+              <li>Tech Stack:java,firebase
+                <!-- Your Technical Skills -->
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <h3>Bijay Dulal</h3>
+        <ul style="margin-left: -15px;">
+          <li>Branch: CSE</li>
+          <li>College: SISTec-GN</li>
+          <li>Github Username: iambijayd</li>
+          <li>Tech Stack: C++,C,JAVA,HTML,CSS,SQL</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="bg-light border rounded-3">
+      <div class="m-4">
+        <h3>Yash Khushwah</h3>
+        <ul style="margin-left: -15px;">
+          <li>Branch: CSE</li>
+          <li>College: SISTec RB</li>
+          <li>Github Username: lukeskywlaker</li>
+          <li>Tech Stack: C++,C,JAVA,HTML,CSS,Cloud Computing, Linux</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="bg-light border rounded-3">
+
+      <div class="m-4">
+
+        <h3>Vinyas Hegde</h3>
+
+        <ul style="margin-left: -15px;">
+
+          <li>Branch: CE</li>
+
+          <li>College: Pillai Hoc</li>
+
+          <li>Github Username: vinyashegde</li>
+
+          <li>Tech Stack: C++,C,HTML,CSS, JavaScript</li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="bg-light border rounded-3">
+      <div class="m-4">
+        <h3>Ankit Shilarkar
+          <!-- Your name -->
+        </h3>
+        <ul style="margin-left: -15px;">
+          <li>Branch: CSE
+            <!-- Your Branch -->
+          </li>
+          <li>College: SISTec-GN
+            <!-- Your College -->
+          </li>
+          <li>Github Username: ankit-shilarkar
+            <!-- Your Github Username -->
+          </li>
+          <li>Tech Stack: DSA,C,C++,ML
+            <!--Your Technical Skills -->
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="bg-light border rounded-3">
+      <div class="m-4">
+        <h3>Harshit Dongre
+          <!-- Your name -->
+        </h3>
+        <ul style="margin-left: -15px;">
+          <li>Branch: CSE
+            <!-- Your Branch -->
+          </li>
+          <li>College: SISTEC-GN
+            <!-- Your College -->
+          </li>
+          <li>Github Username: Harshit1020
+            <!-- Your Github Username -->
+          </li>
+          <li>Tech Stack:JavaScript,Node.js,C,Java,Python
+            <!--Your Technical Skills -->
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="bg-light border rounded-3">
+      <div class="m-4">
+        <h3>Ali Moid</h3>
+        <ul style="margin-left: -15px;">
+          <li>Branch: CS</li>
+          <li>College: SRMCEM, Lucknow</li>
+          <li>Github Username: alimoid14</li>
+          <li>Tech Stack:
+            Java, Python, C, HTML, JavaScript
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Paste the Code here -->
+
+    <!-- Copy paste below code above this line-->
+
+
+    <!-- Copy paste below code above this and update your respective details-->
+    <div class="bg-light border rounded-3">
+      <div class="m-4">
+        <h3>
+          <!-- Your Name -->
+        </h3>
+        <ul style="margin-left: -15px;">
+          <li>Branch:
+            <!-- Your Branch -->
+          </li>
+          <li>College:
+            <!-- Your College -->
+          </li>
+          <li>Github Username:
+            <!-- Your Github Username -->
+          </li>
+          <li>Tech Stack:
+            <!-- Your Technical Skills -->
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Copy above code till here -->
+
+  </div>
+  </div>
+  </div>
+
+  <footer class="text-center text-white mt-5" id="about" style="background-color: #f1f1f1;">
+    <!-- Grid container -->
+    <div class="container pt-4">
+
+      <div class="text-dark">
+        <img src="img/mlsa-logo.png" height="200px" alt=""><br><br>
+        <h1>MLSA x SISTec</h1>
+        <p><strong>Microsoft Learn Student Ambassador Community - SISTec</strong> is a technical community formed under
+          <strong>Microsoft Learn Student Ambassadors Program </strong>that aims to get as many student developers
+          together as possible in order to create a robust environment that fosters collaborative learning. We hold
+          engaging workshops and events to ensure the students' learning and advancement.
+        </p>
+      </div>
+
+
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Linkedin -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.linkedin.com/company/mlsa-x-sistec"
+          role="button" data-mdb-ripple-color="dark" target="_blank" rel="noopener noreferrer"><i
+            class="fab fa-linkedin"></i>
+        </a>
+        <!-- Discord -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://discord.gg/4MsjNAruD5" role="button"
+          data-mdb-ripple-color="dark" target="_blank" rel="noopener noreferrer"><i class="fab fa-discord"></i>
+        </a>
+
+        <!-- Instagram -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="https://instagram.com/mlsaxsistec?igshid=YmMyMTA2M2Y=" role="button" data-mdb-ripple-color="dark"
+          target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i>
+        </a>
+
+        <!-- Know more about us! -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://linktr.ee/mlsaxsistec" role="button"
+          data-mdb-ripple-color="dark" target="_blank" rel="noopener noreferrer"><i class="fab fa-angle-double-up"></i>
+        </a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-dark" href="https://about.me/ghanshyamprajapati">Ghanshyam Prajapati</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
 </body>
+
 </html>
